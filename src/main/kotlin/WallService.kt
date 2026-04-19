@@ -17,4 +17,9 @@ object WallService {
         }
         return false
     }
+
+    fun clear() {
+        posts = emptyArray()
+        nextPostId = 0
+    }
 }
